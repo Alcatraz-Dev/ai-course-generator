@@ -8,10 +8,10 @@ export const ThemeContext = createContext();
 export function ThemeProvider({ children }) {
   // Initialize theme and mode from local storage or default values
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem("theme") || "Orange";
+    return localStorage.getItem("theme") || "Blue";
   });
   const [mode, setMode] = useState(() => {
-    return localStorage.getItem("mode") || "dark";
+    return localStorage.getItem("dark") || "dark";
   });
 
   // Update CSS variables when theme or mode changes

@@ -3,7 +3,7 @@
 import React from "react";
 import { useTheme } from "./ ThemeProvider";
 import { Button } from "@/components/ui/button";
-import { themes } from "@/lib/themes";
+
 
 function Themes() {
   const { theme, setTheme, mode, setMode } = useTheme();
